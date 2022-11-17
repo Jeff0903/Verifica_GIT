@@ -23,6 +23,8 @@ namespace Prova_Pratica_GIT
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
 
         private void btnBiblioteca_Click(object sender, RoutedEventArgs e)
@@ -30,5 +32,7 @@ namespace Prova_Pratica_GIT
             
             
         }
+
+
     }
 }

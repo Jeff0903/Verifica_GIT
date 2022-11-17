@@ -14,6 +14,7 @@
         <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Margin="18,183,0,0" TextWrapping="Wrap" Text="Anno di pubblicazione" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="18,231,0,0" TextWrapping="Wrap" Text="Editore" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Margin="18,266,0,0" TextWrapping="Wrap" Text="Numero Pagine" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="txtFinale" HorizontalAlignment="Left" Margin="78,388,0,0" TextWrapping="Wrap" Text="Stringa Finale" VerticalAlignment="Top" Width="656"/>
 
     </Grid>
 </Window>
