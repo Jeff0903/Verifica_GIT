@@ -7,8 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnBiblioteca" Content="Crea Biblioteca" HorizontalAlignment="Left" Margin="146,105,0,0" VerticalAlignment="Top" Height="47" Width="113" Click="btnBiblioteca_Click"/>
-        <Label x:Name="lblLibri" Content="Libri" HorizontalAlignment="Left" Margin="547,105,0,0" VerticalAlignment="Top" Height="160" Width="149"/>
+        <Button x:Name="btnBiblioteca" Content="Crea Biblioteca" HorizontalAlignment="Left" Margin="171,176,0,0" VerticalAlignment="Top" Height="47" Width="113" Click="btnBiblioteca_Click"/>
+        <ListBox x:Name="lstBiblioteca" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="425,114,35,122"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="18,114,0,0" TextWrapping="Wrap" Text="Autore" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="18,152,0,0" TextWrapping="Wrap" Text="Titolo" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Margin="18,183,0,0" TextWrapping="Wrap" Text="Anno di pubblicazione" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="18,231,0,0" TextWrapping="Wrap" Text="Editore" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Margin="18,266,0,0" TextWrapping="Wrap" Text="Numero Pagine" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
