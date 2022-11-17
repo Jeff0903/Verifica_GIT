@@ -1,0 +1,14 @@
+﻿<Window x:Class="Prova_Pratica_GIT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prova_Pratica_GIT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnBiblioteca" Content="Crea Biblioteca" HorizontalAlignment="Left" Margin="146,105,0,0" VerticalAlignment="Top" Height="47" Width="113" Click="btnBiblioteca_Click"/>
+        <Label x:Name="lblLibri" Content="Libri" HorizontalAlignment="Left" Margin="547,105,0,0" VerticalAlignment="Top" Height="160" Width="149"/>
+
+    </Grid>
+</Window>
