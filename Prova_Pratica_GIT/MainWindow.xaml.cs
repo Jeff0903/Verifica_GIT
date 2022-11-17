@@ -29,10 +29,14 @@ namespace Prova_Pratica_GIT
 
         private void btnBiblioteca_Click(object sender, RoutedEventArgs e)
         {
-            
+            //Quando viene premuto il pulsante "Inizia", viene creata una biblioteca sulla quale verranno poi creati i libri
+
             
         }
 
-
+        private void btnLibro_Click(object sender, RoutedEventArgs e)
+        {
+            //Con questo pulsante viene creato un libro a cui vengono assegnate le caratteristiche correlate alla classe Libro
+        }
     }
 }
