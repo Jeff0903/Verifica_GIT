@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnBiblioteca" Content="Crea Biblioteca" HorizontalAlignment="Left" Margin="171,176,0,0" VerticalAlignment="Top" Height="47" Width="113" Click="btnBiblioteca_Click"/>
+        <Button x:Name="btnBiblioteca" Content="Inizia" HorizontalAlignment="Left" Margin="171,176,0,0" VerticalAlignment="Top" Height="47" Width="113" Click="btnBiblioteca_Click"/>
         <ListBox x:Name="lstBiblioteca" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="425,114,35,122"/>
         <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="18,114,0,0" TextWrapping="Wrap" Text="Autore" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="18,152,0,0" TextWrapping="Wrap" Text="Titolo" VerticalAlignment="Top" Width="120"/>
@@ -15,6 +15,11 @@
         <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="18,231,0,0" TextWrapping="Wrap" Text="Editore" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Margin="18,266,0,0" TextWrapping="Wrap" Text="Numero Pagine" VerticalAlignment="Top" Width="120"/>
         <TextBlock x:Name="txtFinale" HorizontalAlignment="Left" Margin="78,388,0,0" TextWrapping="Wrap" Text="Stringa Finale" VerticalAlignment="Top" Width="656"/>
+        <TextBox x:Name="txtNBiblio" HorizontalAlignment="Left" Margin="42,44,0,0" TextWrapping="Wrap" Text="Nome Biblioteca" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="220,44,0,0" TextWrapping="Wrap" Text="Orario Apertura" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtChiusura" HorizontalAlignment="Left" Margin="376,44,0,0" TextWrapping="Wrap" Text="Orario Chiusura" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtElenco" HorizontalAlignment="Left" Margin="525,44,0,0" TextWrapping="Wrap" Text="Elenco Libri" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnLibro" Content="Creazione Libro" HorizontalAlignment="Left" Margin="18,310,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
