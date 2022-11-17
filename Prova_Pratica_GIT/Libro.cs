@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Prova_Pratica_GIT
 {
-    internal class Libro
+    public class Libro
     {
+        internal string autore { get; set; }
+        internal string titolo { get; set; }
+
+        internal int anno { get; set; }
+        internal string editore { get; set; }
+        internal int nPagine { get; set; }
     }
 }
